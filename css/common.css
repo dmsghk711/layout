@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+@font-face {
+	font-family:'NanumGothic'; font-style:normal; font-weight:400;
+	src:url('font/NanumGothic-Regular.eot');
+	src:url('font/NanumGothic-Regular.eot?#iefix') format('embedded-opentype'), url('font/NanumGothic-Regular.woff') format('woff'), url('font/NanumGothic-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family:'NanumGothic'; font-style:normal; font-weight:700;
+	src:url('font/NanumGothic-Bold.eot');
+	src:url('font/NanumGothic-Bold.eot?#iefix') format('embedded-opentype'), url('font/NanumGothic-Bold.woff') format('woff'), url('font/NanumGothic-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family:'NanumGothic'; font-style:normal; font-weight:800;
+	src:url('font/NanumGothic-ExtraBold.eot');
+	src:url('font/NanumGothic-ExtraBold.eot?#iefix') format('embedded-opentype'), url('font/NanumGothic-ExtraBold.woff') format('woff'), url('font/NanumGothic-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+	font-family:'NanumSquare'; font-style:normal; font-weight:400;
+	src:url('font/NanumSquareR.eot');
+	src:url('font/NanumSquareR.eot?#iefix') format('embedded-opentype'), url('font/NanumSquareR.woff') format('woff'), url('font/NanumSquareR.ttf') format('truetype');
+}
+@font-face {
+	font-family:'NanumSquare'; font-style:normal; font-weight:700;
+	src:url('font/NanumSquareB.eot');
+	src:url('font/NanumSquareB.eot?#iefix') format('embedded-opentype'), url('font/NanumSquareB.woff') format('woff'), url('font/NanumSquareB.ttf') format('truetype');
+}
+
+/* Reset */
+* {margin:0; padding:0;}
+body, input, select, textarea, button {font:normal 14px/1.4 'NanumGothic', '나눔고딕', '맑은 고딕', 'Malgun Gothic', '돋움', Dotum, 'Microsoft YaHei', Helvetica, Arial, Sans-serif; color:#333;}
+body {-webkit-text-size-adjust:none;}
+input, select, textarea {vertical-align:middle; -webkit-box-sizing:border-box; box-sizing:border-box; border-radius:0;}
+input::-ms-clear, input::-ms-reveal {display:none;}
+input::-webkit-search-cancel-button {-moz-appearance:none; -webkit-appearance:none; appearance:none;}
+input::-webkit-clear-button, input::-webkit-inner-spin-button, input::-webkit-outer-spin-button {display:none; -moz-appearance:none; -webkit-appearance:none; appearance:none;}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color:#d2d2d2;}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {color:#d2d2d2;}
+button {background:none; border:0; border-radius:0; overflow:visible; cursor:pointer;}
+textarea {resize:none;}
+label {vertical-align:middle; cursor:pointer;}
+a {color:inherit; text-decoration:none;}
+a:active, a:hover, a:focus {text-decoration:underline;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;}
+em, address {font-style:normal;}
+ol, ul {list-style:none;}
+img, fieldset {border:0;}
+table {border:0; border-spacing:0;}
+legend {visibility:hidden; position:absolute; left:-5000px; font-size:0; line-height:0;}
+caption {visibility:hidden; text-indent:-5000px; font-size:0; line-height:0;}
+hr {display:none;}
+main {display:block;}
+@media all and (max-width:767px) { /* mobile ver */
+	body, input, select, textarea, button {font-size:12px;}
+}
+.hidden {position:absolute !important; left:-99999px !important;}
